@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exit Intent Popup</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/leaveintent.js"></script>
+    <script type="text/javascript">
+            muscleModal.init({
+            // Delay in Seconds
+            delay: 1,
+            // Width & Height in Pixels
+            width: 600,
+            height: 720,
+            // Days before cookies refresh for this popup
+            cookieExp: 30,
+            // Element ID of three main Exit popup components
+                // Exit Intent Popup
+            elementName: 'muscleIntent',
+                // Background of the site once triggered
+            bgElementName: 'muscleIntent_bg',
+                // Close button
+            closeElementName: 'muscleIntent_close',
+        });
+    </script>
+</head>
+<body>
+
+<div id="muscleIntent">
+    <h1>Free £20 off your first order!</h1>
+    <img src="img/meat_hamper.jpg" alt="">
+    <button>CLAIM OFFER</button>
+</div>
+
+</body>
+</html>
